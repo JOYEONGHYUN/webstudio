@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+
+
+
+  <title>KOREAVEL</title>
+
+
+
+  <!-- css -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+
+  <link href="css/flexslider.css" rel="stylesheet" />
+
+  <link href="css/animate.css" rel="stylesheet" />
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/style2.css" rel="stylesheet">
+
+  <link href="color/default.css" rel="stylesheet">
+
+  <!-- =======================================================
+
+    Theme Name: Shuffle
+
+    Theme URL: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/
+
+    Author: BootstrapMade
+
+    Author URL: https://bootstrapmade.com
+
+  ======================================================= -->
+
+
+
+</head>
+
+
+
+<body class = "bbg">
+
+  <div id = 'wrap' class = "sbg" >
+
+
+
+
+
+
+
+
+
+
+
+      <script type ="text/javascript"></script>
+
+
+
+      <div class = "modal" style = "display=none;">
+
+
+
+        <div class = "intro_cont" id="intro_pop" style="display:none">
+
+          <div class = "intro1">
+
+
+
+            <div class="txt">
+
+              <div id="Layer10" style="visibility: hidden;"><img src="http://www.dh.go.kr/img/tour/_temp01_txt00.png"></div>
+
+              <div id="Layer1" style="visibility: visible;"><a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752"><img src="../img/tour/_temp01_txt01.png"></a></div>
+
+              <div id="Layer2" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt02.png"></a></div>
+
+              <div id="Layer3" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt03.png"></a></div>
+
+              <div id="Layer4" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt04.png"></a></div>
+
+              <div id="Layer5" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt05.png"></a></div>
+
+           </div>
+
+
+
+            <div class = "close">
+
+              <a href="javascript:closeIntro();">
+
+                <img src = "http://www.dh.go.kr/img/tour/modal_close.png">
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div id = "header">
+
+        <div id="topwrap">
+
+          <div class ="d_width">
+
+            <h1 id = "logo">
+
+              <a href>
+
+                <img src = "http://www.dh.go.kr/img/tour/logo.png" >
+
+              </a>
+
+            </h1>
+
+
+
+            <div style="padding:12px 0 0 0;">
+
+              <form id="MainSearch_form" name="MainSearch_form" action="../search/search_tour.htm" method="get" title="통합검색">
+
+                <fieldset>
+
+                  <legend>통합검색</legend>
+
+                  <div class="topsearch2">
+
+                    <label for="Keywords_top" class="hidden">検索キーワードを入力</label>
+
+                    <input type="text" class="text" name="Keywords" id="Keywords_top" value="" onkeydown="SearchinputSendit();" title="통합검색어 입력영역">
+
+                    <input type="image" src="http://www.dh.go.kr/img/ico_topsearch.png"  class="image">
+
+                  </div>
+
+                </fieldset>
+
+              </form>
+
+            </div>
+
+
+
+            <div id = "topmn">
+
+              <ul>
+
+                <li>
+
+                  <a href="http://www.dhcc.go.kr" rel="noopener noreferrer" target="_blank" title="(새창)동해시의회 홈페이지로 이동">ログイン</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">愛し</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">嫌い</a>
+
+
+
+                </li>
+
+              </ul>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+        <div class="fix_menu">
+
+          <div id="gnb">
+
+            <a name = "gnb"></a>
+
+            <div id= "gnbmn" style="overflow: hidden; opacity: 1; height: 50px;">
+
+              <h2>주메뉴</h2>
+
+              <ul id="top1menu" class = "depth1">
+
+
+
+                <li class><a href="#" id="top1m1" style="text-indent: 0px;">検索キーワードを入力</a>
+
+                  <ul>
+
+                    <li><a href="./ExamplePage1.html">嫌い</a></li>
+
+                    <li><a href="./ExamplePage2.html">ログイン</a></li>
+
+                    <li><a href="./ExamplePage3.html">嫌い</a></li>
+
+                  </ul>
+
+                </li>
+
+
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">食べ物の紹介
+</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">ソウルフェスティバル</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">夜景スポット</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">伝統行事</a>
+
+                </li>
+
+                 <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">旅行後期</a>
+
+                </li>
+
+
+
+              </ul>
+
+            </div>
+
+            <div class = "clear"></div>
+
+            <div id ="id_gnb_bg" class = "gnb_bg" style="overflow: hidden; opacity: 1; height: 2.84217e-14px;"></div>
+
+          </div>
+
+        </div>
+
+        <script type = "text/javascript">initTopMenu(0,0);</script>
+
+      </div>
+
+
+
+      <div id = "scontainer" class = "d_width" >
+
+        <div style="position:relative;" widht="1200;" height:"50;">
+
+          <div id = "location" >
+
+            <h4>現在の位置  </h4>
+
+            <ul>
+
+               <li><a href="./index.htm">家</a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">観光 </a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">観光</a></li>
+
+            </ul>
+
+          </div>
+
+
+
+          <div id = "pnb">
+
+          </div>
+
+
+
+          <div class = "clear">
+
+          </div>
+
+        </div>
+
+
+
+        <div id = "snb">
+
+          <a name = "snb"></a>
+
+          <h2> 찌개류 チゲ類 </h2>
+
+
+
+          <div id ="snbmn">
+
+            <ul id ="snbmn">
+
+              <li id = "snb2m1" style="font-weight: normal;">
+
+                한국(韓國) キムチチゲ
+
+              </li>
+
+              <li id = "snb2m2" style="font-weight: normal;">
+
+                한국(韓國) 味噌チゲ
+
+
+              </li>
+
+              <li id = "snb2m3" style="font-weight: normal;">
+
+                한국(韓國) 清麹醤
+
+
+              </li>
+
+              <li id = "snb2m4" style="font-weight: normal;">
+
+                한국(韓國) ブデチゲ
+
+
+              </li>
+
+              <li id = "snb2m5" style="font-weight: normal;">
+
+                한국(韓國) コチュジャン
+
+              </li>
+
+              <li id = "snb2m6" style="font-weight: normal;">
+
+                한국(韓國) スンドゥブチゲ
+
+              </li>
+
+
+
+
+
+            </ul>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div id = "content">
+
+          <div id = "body_head">
+
+            <div id = "body_title">
+
+              <h1> 韓国料理 </h1>
+
+            </div>
+
+            <div class = "clear"></div>
+
+          </div>
+
+
+
+          <div id = "body_content">
+
+            <div class = "tal">
+
+              <img src = "./img/FoodPage1main.jpg" width="920px" height="350px"  alt = "상단 이미지.png">
+
+            </div>
+
+            <div class>
+
+               <div class = "tac">
+
+                 韓国の
+
+
+                 <br>
+
+
+そして、武陵渓谷では、地産地消の材料で作られ、クリーンな自然の味を一層掻き立ててくれる郷土料理を会うことができます。
+
+                 <br>
+
+北坪民俗市場（5日市）、東の海の中央市場での市場の気分と一緒に楽しむことができる東海の食べ物と東海だけで会えることができる食品を
+
+               </div>
+
+           </div>
+
+            <div class="line_type2"></div>
+
+            <dic class>
+
+               <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">01.</span>
+
+韓国人の情熱（熱情）的な味
+
+                  </p>
+
+               </div>
+
+            </dic>
+
+
+
+            <div class="line_type3" style="padding-bottom:20px;"></div>
+
+
+
+             <div class>
+
+                <div class = "column_type2">
+
+                   <div class = "txt" style = "margin-right:320px; min-height:300px;">
+
+                      <div class ="tal">
+
+キムチ鍋にはある程度発酵がされて酸味のあるキムチを使用しており、浸漬たばかりのキムチを使用すると、特有の味が出ないからだ。新キムチはすぐに使用することもするが、油に炒め使用すると、深い味を出すことができる。炒める油はゴマ油やドゥルギルムが主に使用される。豚肉とのせる場合ロッド（あるいは豚系）を利用して炒めても香ばしい味が出てくる。
+
+
+
+                         <br>
+
+キムチ鍋にはある程度発酵がされて酸味のあるキムチを使用しており、浸漬たばかりのキムチを使用すると、特有の味が出ないからだ。新キムチはすぐに使用することもするが、油に炒め使用すると、深い味を出すことができる。炒める油はゴマ油やドゥルギルムが主に使用される。豚肉とのせる場合ロッド（あるいは豚系）を利用して炒めても香ばしい味が出てくる。
+
+                         <br>
+
+                         <br>
+
+キムチ鍋にはある程度発酵がされて酸味のあるキムチを使用しており、浸漬たばかりのキムチを使用すると、特有の味が出ないからだ。新キムチはすぐに使用することもするが、油に炒め使用すると、深い味を出すことができる。炒める油はゴマ油やドゥルギルムが主に使用される。豚肉とのせる場合ロッド（あるいは豚系）を利用して炒めても香ばしい味が出てくる。
+                         <br>
+
+                         <br>
+
+キムチ鍋にはある程度発酵がされて酸味のあるキムチを使用しており、浸漬たばかりのキムチを使用すると、特有の味が出ないからだ。新キムチはすぐに使用することもするが、油に炒め使用すると、深い味を出すことができる。炒める油はゴマ油やドゥルギルムが主に使用される。豚肉とのせる場合ロッド（あるいは豚系）を利用して炒めても香ばしい味が出てくる。
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "thumb">
+
+                      <img src="./img/FoodPage1a.jpg" width="300" height="420px" alt="음식소개1.png">
+
+                   </div>
+
+                   <div class = "clear"> </div>
+
+
+
+                </div>
+
+             </div>
+
+
+
+             <div class="line_type3" style="padding-bottom:20px;"></div>
+
+
+
+             <div class="line_type3" style="padding-bottom:20px;"></div>
+
+            <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">02.</span>
+
+朝鮮王が食べた神仙炉（神仙爐）
+
+                  </p>
+
+               </div>
+
+            </div>
+
+            <div class="line_type3" style="padding-bottom:20px;"></div>
+
+            <div class>
+
+                <div class = "column_type1">
+
+                   <div class = "thumb">
+
+                      <img src="./img/FoodPage1g.jpg" width="420" height="280" alt="동해의맛06.png">
+
+                   </div>
+
+                   <div class = "txt">
+
+                      <div class = "tal">
+
+東海から新鮮な魚介類の料理だけを楽しむことができるわけではない！
+
+                         <br>
+
+武陵渓谷名勝内28個の郷土飲食店街が密集しており、グルメを見つけようと前後迷わなくても良いと言い。
+
+                         <br>
+
+                         <br>
+
+武陵渓谷名勝内28個の郷土飲食店街が密集しており、グルメを見つけようと前後迷わなくても良いと言い。
+
+                         <br>
+
+                         <br>
+
+美しい自然景観とクール谷の水音を聞きながらすっきり清潔な味の東海郷土料理を一度味みてはいかがでしょうか
+
+                         <br>
+
+すべてさっぱりとしてすっきり味で老若男女誰にでも健康な味に近づくことです。
+
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "clear"></div>
+
+                </div>
+
+           </div>
+
+             <div class="line_type3" style="padding-bottom:40px;"></div>
+
+             <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">03.</span>
+
+ソンノンダン（先農壇）でのイベント後に作成クッパ
+
+                  </p>
+
+               </div>
+
+            </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+            <div class>
+
+               <div class = "column_type2">
+
+                  <div class = "txt" style ="margin-right:480px; min-height:300px;">
+
+                     <div class ="tal">
+
+真のモクバン旅行をするためには、市場に行く方法、みんな知っている事実ですか？東海では、伝統的な市場から夜市まで市場モクバン旅行を楽しむことができんです。
+
+                        <br>
+
+                        <br>
+
+まず、東海の伝統的な市場である北坪民俗市場（五日市）は、私たちの母親の味が感じられるそば煎餅と子供の頃、父が買って来た昔鶏の丸焼きまで昔の郷愁を呼び起こす味を感じることができます。それだけでなく北平民俗オイル状の有名なクッパ通りで辛味の牛の頭クッパを楽しむことができます。このように北坪民俗オイル状では昔思い出す味を楽しむことができます。
+
+                        <br>
+
+                        <br>
+
+東の海の中央市場で進み、北平民俗市場（五日市）とはまた違った感じの料理で皆様に近づいていきます。東の海の中央市場には焼きタウンがあり、香ばしい焼き魚料理と青年モールのために少し違った料理を味わうことができます。
+
+                     </div>
+
+
+
+                  </div>
+
+
+
+                  <div class = "thumb">
+
+                     <img src="./img/FoodPage1i.jpg" width="460" height="300" alt="동해의맛07.png">
+
+                  </div>
+
+
+
+                  <div class = "clear"></div>
+
+
+
+               </div>
+
+            </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+            <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">04.</span>
+
+母の暖かい手（手）の味
+                  </p>
+
+               </div>
+
+            </div>
+
+
+
+           <div class>
+
+                <div class = "column_type1">
+
+                   <div class = "thumb">
+
+                  <img src="./img/FoodPage1d.jpg" width="460" height="300" alt="동해의맛07.png">
+
+                   </div>
+
+                   <div class = "txt">
+
+                      <div class = "tal">
+
+東海から新鮮な魚介類の料理だけを楽しむことができるわけではない！
+
+                         <br>
+
+武陵渓谷名勝内28個の郷土飲食店街が密集しており、グルメを見つけようと前後迷わなくても良いと言い。
+
+                         <br>
+
+                         <br>
+
+武陵渓谷名勝内郷土飲食店の主なメニューには香ばしいジャガイモ、山菜の香ばしい味を感じることができる山菜ビビンバ、さっぱりが濃いファンギ水炊き、甘辛いツルニンジン焼きなど清浄自然の味を一層引き立ててくれるメニューを会うことができます。
+
+                         <br>
+
+                         <br>
+
+美しい自然景観とクール谷の水音を聞きながらすっきり清潔な味の東海郷土料理を一度味みてはいかがでしょうか
+
+                         <br>
+
+すべてさっぱりとしてすっきり味で老若男女誰にでも健康な味に近づくことです。
+
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "clear"></div>
+
+                </div>
+
+           </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+           <div class>
+
+               <div class = "column_type2">
+
+                  <div class = "txt" style ="margin-right:480px; min-height:300px;">
+
+                     <div class ="tal">
+
+真のモクバン旅行をするためには、市場に行く方法、みんな知っている事実ですか？東海では、伝統的な市場から夜市まで市場モクバン旅行を楽しむことができんです。
+
+                        <br>
+
+                        <br>
+
+真のモクバン旅行をするためには、市場に行く方法、みんな知っている事実ですか？東海では、伝統的な市場から夜市まで市場モクバン旅行を楽しむことができんです。
+
+                        <br>
+
+                        <br>
+
+真のモクバン旅行をするためには、市場に行く方法、みんな知っている事実ですか？東海では、伝統的な市場から夜市まで市場モクバン旅行を楽しむことができんです。
+
+                     </div>
+
+
+
+                  </div>
+
+
+
+                  <div class = "thumb">
+
+                     <img src="./img/FoodPage1c.jpg" width="460px" height="320px" alt="동해의맛07.png">
+
+                  </div>
+
+
+
+                  <div class = "clear"></div>
+
+
+
+               </div>
+
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+
+
+          <h2>行き方
+ </h2>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <div id= "footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 col-md-offset-3">
+
+
+
+          <div class="text-center">
+
+            <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+
+            <p>&copy; Shuffle Theme - All Rights Reserved</p>
+
+            <div class="credits">
+
+              <!--
+
+                All the links in the footer should remain intact.
+
+                You can delete the links only if you purchased the pro version.
+
+                Licensing information: https://bootstrapmade.com/license/
+
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Shuffle
+
+              -->
+
+              <a href="https://bootstrapmade.com/">Korea Travel Web</a> by <a href="https://bootstrapmade.com/">Korea aerospace university</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+  <!-- Core JavaScript Files -->
+
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/jquery.sticky.js"></script>
+
+  <script src="js/jquery.flexslider-min.js"></script>
+
+  <script src="js/jquery.easing.min.js"></script>
+
+  <script src="js/jquery.scrollTo.js"></script>
+
+  <script src="js/jquery.appear.js"></script>
+
+  <script src="js/stellar.js"></script>
+
+  <script src="js/wow.min.js"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script src="js/nivo-lightbox.min.js"></script>
+
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/menu_tour.js"></script>
+
+  <script src="./js/main.js"></script>
+
+  <script type="text/javascript" src="http://www.dh.go.kr/js/jquery-ui.js"></script>
+
+</body>
+
+
+
+</html>

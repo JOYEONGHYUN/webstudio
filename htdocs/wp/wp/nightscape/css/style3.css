@@ -1,0 +1,1263 @@
+html {
+    overflow-y: scroll;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* 조동현이 추가한 css */
+
+
+
+
+#scontainer{
+   position: relative;
+   padding: 110px 0 0 0;
+   z-index: 1;
+}
+
+#scontainer. div{
+      width:1200px;
+      height:50px;
+}
+.d_width{
+   position: relative;
+  width: 1200px;
+   margin: 0 auto;
+}
+
+
+#snbmn{
+   width:100%;
+   padding:0;
+   margin:0 0 100px 0;
+}
+
+#snbmn ul li{
+   padding:0;
+   margin:0;
+   font-size:16px;
+   border-bottom:1px solid #ccc;
+}
+
+#content{
+   float: left;
+   width:920px;
+   padding:0;
+   margin: 0 0 0 60px;
+   min-height: 600px;
+}
+
+#body_head{
+   position : relative;
+   clear: both;
+   padding: 25px 0 0 0;
+   margin: 0;
+}
+#body_content{
+   clear: both;
+   width: 100%;
+   padding: 15px 0 50px 0;
+   margin: 0;
+   min-height:400px;
+}
+
+element.style{
+   min-height: 350px;
+   background-image: url(./img/slide.jpg);
+   padding-bottom:10px;
+}
+.column_type4 .thumb{
+   position: relative;
+   background-postion: 50% 50%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #fff;
+   text-align: center;
+}
+
+.column_type4 .bg{
+   position:absolute;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+   background:url(http://www.dh.go.kr/img/bg_bl_60.png) repeat;
+
+}
+
+.column_type4 .txt{
+   position : absolute;
+   width:100%;
+   height: 30px;
+   line-height:30px;
+   margin-top: -15px;
+   top: 50%;
+   font-size:30px;
+   color: #fff;
+}
+
+.fs2{
+   font-size:16px;
+}
+.cnt{
+   margin: 0auto;
+}
+
+
+.arealist{
+   background: #f4f4f4;
+   padding : 20px 30px;
+   text-align: center;
+   line-height: 140px;
+}
+
+
+
+body, div, li{
+   margin:0;
+   padding:0;
+}
+
+div{
+   display:block;
+}
+
+
+li{
+   display: list-item;
+   text-align: -webkit-match-parent;
+}
+
+ul{
+   list-style: none;
+}
+
+ul{
+   display:blcok;
+   -webkit-margin-before:1em;
+   -webkit-margin-after:1em;
+   -webkit-margin-start:1em;
+   -webkit-margin-end:1em;
+   -webkit-padding-start:40px;
+}
+
+
+
+
+
+/* Body 관련 Css */
+#wrap{
+   position: relative;
+   width: 100%;
+   min-width: 1200px;
+   padding: 0;
+   margin: 0;
+}
+/* Body 관련 Css 종료 */
+
+/* Header 관련 Css */
+.sbg {
+    background: #fff url(http://www.dh.go.kr/img/sbg.png) repeat-x 0 110px;
+}
+
+#header{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 3;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+#topwrap{
+   position: relative;
+   height: 60px;
+   background: #fff;
+   z-index:99;
+
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+
+
+#topmn {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: url(http://www.dh.go.kr/img/ico_counsil.png) no-repeat 0 48%;
+    height: 30px;
+}
+#topwrap h1 {
+    padding: 0;
+    margin: 0;
+    background: none;
+      width:199px;
+      height:50px;
+}
+
+.clear{
+   display: block;
+   float:none;
+   clear: both;
+   height:0;
+   width: 100%;
+   font-size: 0 !important;
+   line-height: 0 !important;
+   overflow: hidden;
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+legend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -10000px;
+}
+
+
+#topwrap .topsearch2 {
+    width: 410px;
+    margin: 0 auto;
+    background: #fff;
+    border: 3px solid #283E91;
+    z-index: 4;
+}
+
+
+#topwrap .topsearch1, #topwrap .topsearch2 {
+    vertical-align: top;
+}
+
+.hidden {
+    text-indent: -100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+    color: transparent;
+}
+
+
+
+#topwrap .topsearch2 input.text {
+    width: 370px;
+    height: 26px;
+    line-height: 26px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    letter-spacing: normal;
+    color: #283E91;
+}
+
+input[type="text"], input[type="password"], input.text {
+    height: 20px;
+    padding: 1px 0;
+    border: 1px solid #ccc;
+    outline-color: #ccc;
+    background: #fff;
+    color: #666;
+    vertical-align: middle;
+    border-radius: 0;
+    text-indent: 2px;
+}
+
+input[type="text"], input[type="password"] {
+    -webkit-appearance: none;
+}
+
+input.image {
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+#topmn > ul > li:first-child {
+    padding-left: 25px;
+    margin-left: 0px;
+    background: none;
+}
+
+#topmn > ul > li {
+    float: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    background: url(http://www.dh.go.kr/img/topmn_bar.png) no-repeat 0 48%) no-repeat 0 48%;
+    line-height: 30px;
+}
+
+
+/* Header 관련 Css 종료 */
+
+/* Body - 옆구리CSS */
+
+#snb h2 {
+    padding: 0;
+    margin: 0;
+    background: none;
+    height: 78px;
+    line-height: 100px;
+    font-size: 24px;
+    color: #000000;
+    border-bottom: 2px solid #000001;
+}
+#snb {
+    float: left;
+    width: 220px;
+    padding: 0;
+    margin: 0;
+     position: relative
+
+}
+
+h2 {
+    margin: 30px 0 15px 0;
+    padding: 0 0 0 20px;
+    background: url(../img/h2bg.png) no-repeat 0 0.3em;
+    background-size: 13px auto;
+    font-size: 20px;
+    color: #333;
+}
+/* Body - 옆구리CSS */
+
+/* 처음에 cookie 적용*/
+@charset "utf-8";
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box;}
+*:before, *:after {-webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;}/* */
+
+.modal      {position:fixed;left:0;top:0;width:100%;height:100%;background:url(http://www.dh.go.kr/css/tour.css?1504149048) repeat;z-index:999999}
+#intro_pop   {animation:rise ease-in-out 0.8s 1;-webkit-animation: rise ease-in-out 0.6s 1;}
+.intro_cont   {position:relative;z-index:-1;width:920px;margin:110px auto 0;text-align:center;}
+.intro1      {position:relative;width:100%;height:600px;background:url(http://www.dh.go.kr/css/tour.css?1504149048) no-repeat 50% 100%;}
+.intro1 .mn   a   {position:absolute;z-index:9999}
+.intro1 .mn   a:hover   {animation:jump ease-in-out 0.4s infinite;-webkit-animation: jump ease-in-out 0.4s infinite;}
+.intro1 .mn1   {left:400px;top:15px}/* 망상 */
+.intro1 .mn2   {left:260px;top:70px}/* 무릉 */
+.intro1 .mn3   {left:200px;top:200px}/* 촛대 */
+.intro1 .mn4   {right:260px;top:70px}/* 천곡 */
+.intro1 .mn5   {right:200px;top:200px} /* 논골 */
+.intro1 .txt      {}
+.intro1 .txt div   {position:absolute;top:110px;width:100%;text-align:center;z-index:9998}
+.intro_cont   .close{position:absolute;top:0;right:0;z-index:9999}
+.jump   {}
+}
+/* 처음에 cookie 적용*/
+
+/* 윗대 가리 MenuBar */
+#gnbmn ul.depth1 li{
+   display:block;
+   float:left;
+   padding:0;
+   margin:0;
+   width:160px;
+   font-size:125%;
+   text-align:center;
+}
+
+#gnbmn ul.depth1 li a {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+#gnbmn ul.depth2 {
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    width: 960px;
+    min-height: 200px;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+#gnbmn ul.depth2 li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 20px 10px 0;
+    width: 220px;
+    font-size: 0.875em;
+    letter-spacing: -1px;
+}
+
+#gnbmn ul.depth1 li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 160px;
+    font-size: 125%;
+    text-align: center;
+}
+
+#gnbmn .gnbtit {
+    position: absolute;
+    left: -240px;
+    top: 0px;
+    display: block;
+}
+
+#gnbmn ul.depth2 li.topcont {
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+#gnbmn ul.depth2 li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 20px 10px 0;
+    width: 220px;
+    font-size: 0.875em;
+    letter-spacing: -1px;
+}
+
+#gnbmn ul.depth2 li.topcont .imglist .left {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+#gnbmn ul.depth2 li > a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    color: #3378C1;
+    font-weight: normal;
+    border: 1px solid #3378C1;
+    background-color: #fff;
+    line-height: 140%;
+}
+
+#gnbmn ul.depth1 li a {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+#gnb{
+   position:absolute;
+   width:100%;
+   left:0;
+   top:60px;
+   height: 50px;
+   padding:0;
+   margin 0;
+   background:#000033;
+   box-shadow 1px 1px 1px rbga(0,0,0, .2);
+}
+
+#gnbmn{
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   z-index: 4;
+}
+
+
+#gnb h2{
+   position: absoulte;
+   width: 0;
+   height: 0;
+   font-size: 0;
+   overflow: hidden;
+   visibility: hidden;
+}
+
+
+#gnbmn ul.depth1{
+   position: absolute;
+   width:1020px;
+   left:80px;
+   top:0px;
+   margin:0;
+   padding:0;
+}
+#gnbmn ul.depth1 li a{
+   display: block;
+   padding: 0;
+   margin: 0;
+   color: #ffffff;
+   line-height: 50px;
+}
+#gnbmn .gnbtit h3 {
+    padding: 30px 0 0 0;
+    margin: 0 0 10px 0;
+    background: none;
+    font-size: 30px;
+    color: #3378C1;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#id_gnb_bg{
+   position:absoulte;
+   left:0;
+   top: 50px;
+   z-index:2;
+}
+
+.gnb_bg{
+   width: 100%;
+   background: url(http://www.dh.go.kr/img/tour/bg_gnbmn.gif) no repeat 50% 100%;
+}
+
+/* 윗대 가리 MenuBar */
+
+
+/* body에 있는 설명css*/
+#body_title h1 {
+    padding: 0;
+    margin: 0;
+      background: none;
+    font-size: 1.875em;
+    color: #2A2D34;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.taj{
+   text-align: justify !important;
+}
+
+
+.line_type2{
+   padding: 0 0 20px 0;
+   margin: 0 0 20px 0;
+   border-bottom: 1px dashed #ccc;
+}
+
+.tar{
+   text-align:right !important;
+}
+
+.line_type3{
+
+}
+
+.column_type3{
+   margin:0;
+   padding: 0;
+}
+
+.column_type3 .column.triple{
+   width:33.3333%;
+}
+
+.column_type3 .column{
+   float: left;
+   box-sizing: border-box;
+}
+.column_type3 .txt{
+
+}
+.column_type3 .mrp10{
+   margin-right:10px;
+}
+
+.column_type3 .tac{
+   text-align: center !important;
+}
+
+.mbp10{
+   margin-bottom: 10px
+}
+
+.pointb{
+   color: #458ACF !important;
+}
+
+.fs3{
+   font-size:18px;
+}
+
+
+.tal{
+   text-align: left !important;
+}
+
+.pb10{
+   margin-bottom:10px;
+}
+
+img{
+   vertical-align:top;
+}
+
+.column_type2{
+   position: relative;
+}
+
+.column_type2 .thumb{
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+
+
+.arealist .tit{
+   font-size: 25px;
+   color: #3378C1;
+   margin: 0 0 20px 0;
+}
+
+.arealist a{
+   display: block;
+   margin: 0 auto 10px;
+   width: 100px;
+   height: 100px;
+   border-radius:50%;
+   text-align: center !important;
+}
+
+.arealist li{
+   position: relative;
+   float: left;
+   width: 120px;
+   margin: 10px;
+   color: #3378C1;
+}
+
+.arealist a.img1_1{
+   background: url(./img/slide1.jpg) no-repeat 0 0;
+}
+
+.arealist a.img1_2{
+   background: url(http://www.dh.go.kr/img/tour/mainarea_img11.png) no-repeat 0 0;
+}
+
+.arealist a.img1_3{
+   background: url(http://www.dh.go.kr/img/tour/mainarea_img11.png) no-repeat 0 0;
+}
+
+.arealist a.img1_4{
+   background: url(http://www.dh.go.kr/img/tour/mainarea_img11.png) no-repeat 0 0;
+}
+
+.arealist a.img1_5{
+   background: url(http://www.dh.go.kr/img/tour/mainarea_img11.png) no-repeat 0 0;
+}
+
+.arealiwt a.img1_6{
+   background: url(http://www.dh.go.kr/img/tour/mainarea_img11.png) no-repeat 0 0;
+}
+
+.clearfix:after{
+   content:"";
+   clear:both;
+   display:block;
+   float:none;
+}
+
+.btn_d{
+   display: inline-block;
+    background: #6EA6D9;
+    border-color: #6EA6D9;
+    color: #fff !important;
+    line-height: 1.2;
+    padding: 8px 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.column_type1 .txt {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+}
+
+.column_type1 .thumb {
+    display: inline-block;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.line_type1 {
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#rvClose .img {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/rv_close.png) no-repeat;
+}
+
+#mapWrapper {
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+}
+#mapwrap {
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+}
+#rvWrapper {
+    width: 50%;
+    height: 400px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+#roadview {
+    width: 100%;
+    height: 100%;
+}
+#rvClose {
+    position: absolute;
+    padding: 4px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px #888;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* body에 있는 설명css*/
+
+
+/* footer에 있는 설명css*/
+#footer {
+    clear: both;
+    position: relative;
+    padding: 0 0 20px 0;
+    margin: 0;
+    background: #595F6A;
+    font-size: 13px;
+    color: #ccc;
+    line-height: 100%;
+}
+/* footer에 있는 설명css*/
+
+
+/* 음식소개 page 소개 */
+.tac {
+    text-align: center !important;
+}
+
+.bg_tit{
+   padding: 2px;
+    font-size: 24px;
+    color: #fff;
+    background: #3079C2;
+    vertical-align: top;
+    line-height: 120%;
+}
+.bg_tit .num {
+    font-family: 'Georgia';
+    font-style: italic;
+}
+
+.column_type3 .column.quarter {
+    width: 25%;
+}
+.column_type2 .txt {
+}
+
+.column_type3 .column {
+    float: left;
+    box-sizing: border-box;
+}
+.column_type3 .thumb img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+}
+.bg_tit {
+    padding: 2px;
+    font-size: 24px;
+    color: #fff;
+    background: #3079C2;
+    vertical-align: top;
+    line-height: 120%;
+}
+.bg_tit .num {
+    font-family: 'Georgia';
+    font-style: italic;
+}
+
+/* 음식소개 page 소개 */
+
+
+
+/* 페스티발 소개 page 소개 */
+
+.bx_type1 {
+    padding: 15px 20px;
+    background: #f4f4f4;
+}
+.bx_type4 {
+    padding: 15px 20px;
+    border: 2px solid #ccc;
+}
+
+h3 {
+    margin: 25px 0 15px 0;
+    padding: 0 0 0 20px;
+    background: url(../img/h3bg.png) no-repeat 0 0.2em;
+    background-size: 10px auto;
+    font-size: 18px;
+    color: #3378C1;
+}
+.column_type1 .thumb {
+    display: inline-block;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.column_type1 .txt {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+}
+
+.event_top .tit {
+    font-size: 20px;
+    color: #3079C2;
+}
+
+.event_top .tit .tag_d {
+    margin-right: 10px;
+    background: #3079C2;
+    border-color: #3079C2;
+    color: #fff !important;
+}
+
+.event_top .txt {
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    color: #888;
+    text-align: justify;
+    line-height: 160%;
+}
+/* 페스티발 소개 page 소개 */
+
+
+
+/* 페스티발 소개 page 옆구리 */
+
+.col-md-10{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-collapse {
+    max-height: 340px;
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+
+.col-md-10 {
+    width: 83.33333333%;
+}
+/* 페스티발 소개 page 옆구리 */
+
+
+/* body 윗대가리 */
+
+
+
+#location {
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 50px;
+      color : #454545;
+}
+#location h4 {
+    display: none;
+}
+
+#location ul li:first-child {
+    display: block;
+    background: url(http://www.dh.go.kr/img/ico_home.png) no-repeat 0 50%;
+    padding: 0 0 0 30px;
+}
+#location ul li {
+    float: left;
+    background: url(http://www.dh.go.kr/img/ico_homearr2.png) no-repeat 0 50%;
+    padding: 0 10px 0 40px;
+}
+
+#location a {
+    color: #ccc;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #454545;
+}
+
+/* body 윗대가리 */
+
+
+/* review */
+#content {
+    float: left;
+    width: 920px;
+    padding: 0;
+    margin: 0 0 0 60px;
+    min-height: 600px;
+}
+
+#body_head {
+    position: relative;
+    clear: both;
+    padding: 25px 0 0 0;
+    margin: 0;
+}
+
+#body_title {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#body_title h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    background: transparent;
+    font-size: 100%;
+    line-height: 1.25;
+    text-align: left;
+    font-weight: normal;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: 1.875em;
+    color: #2A2D34;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
+
+input, select, textarea, button {
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+input {
+    padding: 1px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    color: #777;
+}
+
+.board_search legend {
+    display: none !important;
+}
+
+label {
+    cursor: default;
+}
+
+.board_search {
+    background: #f6f6f6;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.board_search span {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.comm_sel {
+    margin-right: 2px;
+}
+
+.board_search select {
+    padding: 0 5px;
+    font-weight: normal;
+    color: #727272;
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+}
+
+select, select.text {
+    height: 20px;
+    padding: 1px 0;
+    border: 1px solid #ccc;
+    outline-color: #ccc;
+    background: #fff;
+    color: #666;
+    vertical-align: middle;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+option {
+    padding-right: 6px;
+}
+
+.board_search input.text {
+    width: 240px;
+    height: 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="submit"].btn_d, input[type="button"].btn_d {
+    border: none;
+    cursor: pointer;
+}
+
+.board_info, .btnarea {
+    clear: both;
+    margin: 20px 0;
+}
+
+
+.board_list table {
+    display: table;
+}
+
+.board_list {
+    border-top: 2px solid #3378C1;
+    border-bottom: 1px solid #555;
+}
+body, h1, h2, h3, h4, input, button {
+    font-family: 'ngn', 'NanumGothic', '나눔고딕', NGNormal, NanumGothicBold, '돋움', Dotum, Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #454545;
+    line-height: 180%;
+    /* letter-spacing: -1px; */
+}
+
+table caption {
+    text-indent: -100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+    color: transparent;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.board_list table thead tr, .board_list table tbody tr {
+    display: table-row;
+    width: 100%;
+    padding: 0px;
+}
+
+.board_list thead .num {
+    width: 5%;
+}
+.board_list table thead th {
+    color: rgb(34, 34, 34);
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    background: rgb(246, 246, 246);
+}
+
+.board_list thead .subject {
+    width: auto;
+}
+
+.board_list thead .file, .board_list thead .hit {
+    width: 8%;
+}
+
+.board_list thead .writer {
+    width: 15%;
+}
+
+.board_list thead .date {
+    width: 12%;
+}
+
+thead .hit {
+    width: 8%;
+}
+
+.board_list table tbody tr:first-child {
+    border-top: none;
+}
+
+
+.board_list table tbody td.num, .board_list table tbody td.file, .board_list table tbody td.writer, .board_list table tbody td.date, .board_list table tbody td.hit {
+    position: static;
+}
+
+.board_list table tbody td.num {
+    padding-left: 0px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
+.board_list table tbody td.subject {
+    color: rgb(51, 51, 51);
+    position: static;
+    text-align: left;
+    width: auto;
+}
+
+.board_list table tbody th, .board_list table tbody td {
+    display: table-cell;
+    float: none;
+    width: auto;
+    text-align: center;
+    padding: 12px 5px;
+}
+table td {
+    vertical-align: middle;
+}
+
+.board_list table tbody td.num {
+    padding-left: 0;
+    font-size: 12px;
+    color: #999;
+}
+.board_list table tbody tr {
+    border-top: 1px solid #eee;
+}
+
+table {
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    width: 100%;
+}
+
+.paging {
+    text-align: center;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.paging .strong_this {
+    color: #fff;
+    background: #3378C1;
+    border: 1px solid #3378C1;
+}
+
+.paging a, .paging .strong_this {
+    font-size: 12px;
+    padding: 8px 6px 0;
+    height: 32px;
+    min-width: 30px;
+    margin: 0 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.paging a {
+    color: #777;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+/* review */

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+
+
+
+  <title>KOREAVEL</title>
+
+
+
+  <!-- css -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+
+  <link href="css/flexslider.css" rel="stylesheet" />
+
+  <link href="css/animate.css" rel="stylesheet" />
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/style2.css" rel="stylesheet">
+
+  <link href="color/default.css" rel="stylesheet">
+
+  <!-- =======================================================
+
+    Theme Name: Shuffle
+
+    Theme URL: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/
+
+    Author: BootstrapMade
+
+    Author URL: https://bootstrapmade.com
+
+  ======================================================= -->
+
+
+
+</head>
+
+
+
+<body class = "bbg">
+
+  <div id = 'wrap' class = "sbg" >
+
+
+
+
+
+
+
+
+
+
+
+      <script type ="text/javascript"></script>
+
+
+
+      <div class = "modal" style = "display=none;">
+
+
+
+        <div class = "intro_cont" id="intro_pop" style="display:none">
+
+          <div class = "intro1">
+
+
+
+            <div class="txt">
+
+              <div id="Layer10" style="visibility: hidden;"><img src="http://www.dh.go.kr/img/tour/_temp01_txt00.png"></div>
+
+              <div id="Layer1" style="visibility: visible;"><a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752"><img src="../img/tour/_temp01_txt01.png"></a></div>
+
+              <div id="Layer2" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt02.png"></a></div>
+
+              <div id="Layer3" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt03.png"></a></div>
+
+              <div id="Layer4" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt04.png"></a></div>
+
+              <div id="Layer5" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt05.png"></a></div>
+
+           </div>
+
+
+
+            <div class = "close">
+
+              <a href="javascript:closeIntro();">
+
+                <img src = "http://www.dh.go.kr/img/tour/modal_close.png">
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div id = "header">
+
+        <div id="topwrap">
+
+          <div class ="d_width">
+
+            <h1 id = "logo">
+
+              <a href>
+
+                <img src = "http://www.dh.go.kr/img/tour/logo.png" >
+
+              </a>
+
+            </h1>
+
+
+
+            <div style="padding:12px 0 0 0;">
+
+              <form id="MainSearch_form" name="MainSearch_form" action="../search/search_tour.htm" method="get" title="통합검색">
+
+                <fieldset>
+
+                  <legend>통합검색</legend>
+
+                  <div class="topsearch2">
+
+                    <label for="Keywords_top" class="hidden">통합검색어 입력</label>
+
+                    <input type="text" class="text" name="Keywords" id="Keywords_top" value="" onkeydown="SearchinputSendit();" title="통합검색어 입력영역">
+
+                    <input type="image" src="http://www.dh.go.kr/img/ico_topsearch.png"  class="image">
+
+                  </div>
+
+                </fieldset>
+
+              </form>
+
+            </div>
+
+
+
+            <div id = "topmn">
+
+              <ul>
+
+                <li>
+
+                  <a href="http://www.dhcc.go.kr" rel="noopener noreferrer" target="_blank" title="(새창)동해시의회 홈페이지로 이동">로그인</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">회원가입</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">모바일모드</a>
+
+
+
+                </li>
+
+              </ul>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+        <div class="fix_menu">
+
+          <div id="gnb">
+
+            <a name = "gnb"></a>
+
+            <div id= "gnbmn" style="overflow: hidden; opacity: 1; height: 50px;">
+
+              <h2>주메뉴</h2>
+
+              <ul id="top1menu" class = "depth1">
+
+
+
+                <li class>
+
+                  <a href="../tour/sub.htm?nav_code=tou1496969234" id="top1m1" style="text-indent: 0px;">관광명소</a>
+
+                  <ul id="top2m1" class="depth2" style="display:none;">
+
+
+
+                    <li class="gnbtit">
+
+                     <h3> 동해여행 </h3>
+
+                     <p>
+
+                      "Rising Sun Above"
+
+                      <br>
+
+                      "the blue East Sea!"
+
+                     </p>
+
+                    </li>
+
+
+
+                    <li class = "topcont">
+
+                      <div class = "imglist">
+
+                        <span class = "left">
+
+                          <a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752" class="imgbg img1_1">망상해변권역</a>
+
+                        </span>
+
+                        <span class = "left">
+
+                          <a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752" class="imgbg img1_1">망상해변권역</a>
+
+                        </span>
+
+                        <span class = "left">
+
+                          <a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752" class="imgbg img1_1">망상해변권역</a>
+
+                        </span>
+
+                        <span class = "left">
+
+                          <a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752" class="imgbg img1_1">망상해변권역</a>
+
+                        </span>
+
+                        <span class = "left">
+
+                          <a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752" class="imgbg img1_1">망상해변권역</a>
+
+                        </span>
+
+                        <div class = clear></div>
+
+                      </div>
+
+                    </li>
+
+
+
+                    <li id = "top2m1m1">
+
+                      <a href="../tour/sub.htm?nav_code=tou1496969234" title="동해로 오세요 페이지로 이동합니다.">동해로 오세요</a>
+
+                    </li>
+
+
+
+                    <li id = "top2m1m2">
+
+                      <a href="../tour/sub.htm?nav_code=tou1497764752" title="주요관광지 페이지로 이동합니다.">주요관광지</a>
+
+                    </li>
+
+
+
+                    <li id = "top2m1m3">
+
+                      <a href="../tour/sub.htm?nav_code=tou1496969244" title="동해비경 페이지로 이동합니다.">동해비경</a>
+
+                    </li>
+
+
+
+                    <li id = "topm1m4">
+
+                      <a href="../tour/sub.htm?nav_code=tou1496969311" title="동해관광안내책자 페이지로 이동합니다.">동해관광안내책자</a>
+
+                    </li>
+
+
+
+                    <li id = "top2m1m5">
+
+                      <a href="../tour/sub.htm?nav_code=tou1496969268" title="VR게시판 페이지로 이동합니다.">VR게시판</a>
+
+                    </li>
+
+
+
+                    <li id = "top2m1m6">
+
+                      <a href="../tour/sub.htm?nav_code=tou1497764249" title="찾아오시는길 페이지로 이동합니다.">찾아오시는길</a>
+
+                    </li>
+
+
+
+
+
+
+
+                  </ul>
+
+                </li>
+
+
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">음식소개</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">서울축제</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">야경명소</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">전통행사</a>
+
+                </li>
+
+                 <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">여행후기</a>
+
+                </li>
+
+
+
+              </ul>
+
+            </div>
+
+            <div class = "clear"></div>
+
+            <div id ="id_gnb_bg" class = "gnb_bg" style="overflow: hidden; opacity: 1; height: 2.84217e-14px;"></div>
+
+          </div>
+
+        </div>
+
+        <script type = "text/javascript">initTopMenu(0,0);</script>
+
+      </div>
+
+
+
+      <div id = "scontainer" class = "d_width" >
+
+        <div style="position:relative;" widht="1200;" height:"50;">
+
+          <div id = "location" >
+
+            <h4>현재위치</h4>
+
+            <ul>
+
+               <li><a href="./index.htm">홈</a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">관광 명소</a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">한옥마을</a></li>
+
+            </ul>
+
+          </div>
+
+
+
+          <div id = "pnb">
+
+          </div>
+
+
+
+          <div class = "clear">
+
+          </div>
+
+        </div>
+
+
+
+
+
+        <div id = "snb">
+
+          <a name = "snb"></a>
+
+          <h2> 페스티벌   </h2>
+
+
+
+          <div id ="snbmn">
+
+            <ul id ="snbmn">
+
+              <li id = "snb2m1" style="font-weight: normal;">
+
+                여의도 불꽃 축제
+
+              </li>
+
+              <li id = "snb2m2" style="font-weight: normal;">
+
+                크리스마스 페스티벌
+
+              </li>
+
+              <li id = "snb2m3" style="font-weight: normal;">
+
+                신촌 거리 축제
+
+              </li>
+
+              <li id = "snb2m4" style="font-weight: normal;">
+
+                서울 마을 미디어 축제
+
+              </li>
+
+              <li id = "snb2m5" style="font-weight: normal;">
+
+                롯데월드 크리스마스 미라클
+
+              </li>
+
+              <li id = "snb2m6" style="font-weight: normal;">
+
+                무역센터 겨울축제
+
+              </li>
+
+
+
+
+
+            </ul>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+        <div id = "content" >
+
+
+
+           <div id = "body_head">
+
+               <div id = "body_title">
+
+                 <h1>페스티벌</h1>
+
+               </div>
+
+               <div id = "clear"></div>
+
+             </div>
+
+
+
+           <div id = "body_content">
+
+              <div class ="bx_type1">
+
+                 <div class = "column_type1">
+
+                    <div class = "thumb">
+
+                       <img src="./img/Festival1a.jpg" widht="260px" height="300px">
+
+                    </div>
+
+                    <div class = "txt">
+
+                       <div class = "tal">
+
+                          <div class = "event_top">
+
+                             <p class = "tit">
+
+                                <span class="tag_d">불꽃축제</span>
+
+                                한 여름 밤의 불꽃 축제
+
+                             </p>
+
+                             <p class = "txt">
+
+                        불꽃놀이를 통해 21세기 한국의 비전을 새롭게 제시하고, 범국민적 영원의 메시지를 담아 민족의 화합의지를 다지는 기쁨과 희망의 장으로 삼고자 기획된 행사로, 2000년 10월에 처음 개최되었다. 10월초에 개최되며, 한화(주) 연화사업부에서 주관한다.
+
+
+
+                             </p>
+
+
+
+                             <ul class = "bu">
+
+                                <li>축제기간 : 2017. 7. 29(토) ~ 8. 15(화)</li>
+
+                                <li>축제장소 : 여의도공원 </li>
+
+                                <li>행사주관 : 동해문화원/(사)한국연예예술인총연합회동해지회</li>
+
+                                <li>문의처 : 공보문화담당관 033-530-2441</li>
+
+                             </ul>
+
+                          </div>
+
+                       </div>
+
+                    </div>
+
+
+
+                    <dic class = "clear"></dic>
+
+                 </div>
+
+
+
+              </div>
+
+
+
+              <h2>축제 개요 </h2>
+
+
+
+              <div class = "bx_type4">
+
+                 <div class = "column_type1">
+
+                    <div class = "thumb">
+
+
+
+                    </div>
+
+                    <div class = "txt">
+
+                       <div class = "tal">
+
+                          ·  축 제 명 : 여의도 불꽃축제 페스티벌
+
+                          <br>
+
+                          ·  기 간 : 2017. 7. 29(토) ~ 8. 15(화)
+
+                          <br>
+
+                          ·  장 소 : 여의도
+
+                          <br>
+
+                          ·  주최/주관 : 동해시/동해문화원, (사)한국연예예술인총연합회동해지회
+
+                          <br>
+
+                          ·  내 용 : 행사 장소는 영등포구 63빌딩 앞 여의도 한강시민공원 일대이며, 보통 하늘이 어두워지는 20시 무렵에 시작해 30분 정도 계속된다.<br><tr> 불꽃은 원효대교와 한강철교 사이의 바지선에서 쏘아 올려진다. 여의도 지구, 서울 전역의 한강시민공원, 동작구 일대, 한강대교·원효대교·마포대교, 지하철 4호선 동작역, 남산타워, 관악산 등에서는 화려한 불꽃놀이를 뚜렷하게 볼 수 있다.
+
+
+
+
+
+                       </div>
+
+                    </div>
+
+                    <div class = "clear">
+
+
+
+                    </div>
+
+                 </div>
+
+              </div>
+
+              <h3> 축제 행사안내 </h3>
+
+
+
+              <div class="line_type1"></div>
+
+
+
+              <h2>찾아오시는 길</h2>
+
+           </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </div>
+
+
+
+  <div id= "footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 col-md-offset-3">
+
+
+
+          <div class="text-center">
+
+            <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+
+            <p>&copy; Shuffle Theme - All Rights Reserved</p>
+
+            <div class="credits">
+
+              <!--
+
+                All the links in the footer should remain intact.
+
+                You can delete the links only if you purchased the pro version.
+
+                Licensing information: https://bootstrapmade.com/license/
+
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Shuffle
+
+              -->
+
+              <a href="https://bootstrapmade.com/">Korea Travel Web</a> by <a href="https://bootstrapmade.com/">Korea aerospace university</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+  <!-- Core JavaScript Files -->
+
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/jquery.sticky.js"></script>
+
+  <script src="js/jquery.flexslider-min.js"></script>
+
+  <script src="js/jquery.easing.min.js"></script>
+
+  <script src="js/jquery.scrollTo.js"></script>
+
+  <script src="js/jquery.appear.js"></script>
+
+  <script src="js/stellar.js"></script>
+
+  <script src="js/wow.min.js"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script src="js/nivo-lightbox.min.js"></script>
+
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/menu_tour.js"></script>
+
+  <script src="./js/main.js"></script>
+
+  <script type="text/javascript" src="http://www.dh.go.kr/js/jquery-ui.js"></script>
+
+</body>
+
+
+
+</html>

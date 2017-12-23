@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KOREAVEL</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style_regi.css" media="screen" title="no title" charset="utf-8">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+            function checked()
+            {
+                var patext = document.getElementById("pass");
+                //비밀번호의 id값
+                var cpatext = document.getElementById("cpass");
+               //비밀번호확인의 id값
+                var mtext = document.getElementById("mail");
+               //e-mail의 id값
+                var nametext = document.getElementById("name");
+               //이름의 id값
+
+                var password = patext.value;
+                var cpassword = cpatext.value;
+                var mail = mtext.value;
+                var name = nametext.value;
+
+                var regExp1 = /^[a-zA-Z0-9]{4,12}$/;
+                //id와 비밀번호의 유효성 검사
+                var regExp2 = /[a-z0-9]{2,}@[a-z0-9-]{2,}\.[a-z0-9]{2,}/i;
+                //e-mail의 유효성 검사
+                var regname = /^[가-힝]{2,}$/;
+                //이름의 유효성 검사
+
+                else if (!regExp1.test(password))
+                {
+                    alert("형식에 맞춰 비밀번호를 입력하세요");
+                    patext.value = "";
+                    patext.focus();
+                    return false;
+                }
+                else if (!(cpassword.slice(0, cpassword.length) === password.slice(0, password.length)))
+                {
+                    alert("비밀번호가 동일하지 않습니다.");
+                    cpatext.value = "";
+                    cpatext.focus();
+                    return false;
+                }
+                else if ((cpassword.slice(0, cpassword.length) === mtext.slice(0, id.length)))
+                {
+                    alert("비밀번호가 ID와 동일하면 안됩니다.");
+                    patext.value = "";
+                    patext.focus();
+                    cpatext.value = "";
+                    cpatext.focus();
+                    return false;
+                }
+                else if (!regExp2.test(mail))
+                {
+                    alert("올바른 이메일 형식이 아닙니다.");
+                    mtext.value = "";
+                    mtext.focus();
+                    return false;
+                }
+                else if (!regname.test(name))
+                {
+                    alert("이름을 올바르게 입력해주세요");
+                    nametext.value = "";
+                    nametext.focus();
+                    return false;
+                }
+                else
+                {
+                    if(checks())
+                    {
+                       alert("회원가입을 진행합니다");
+                       return true;
+                    }
+                    else
+                    {
+                       return false;
+                    }
+                 }
+              }
+              alert("회원가입을 진행합니다");
+                return true;
+            }
+    </script>
+
+  </head>
+  <body>
+
+
+      <article class="container">
+        <div class="page-header">
+          <h1 style="padding-left:20px;">회원가입</h1>
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+          <form action="resi_db.php" role="form" method="post" onsubmit="return checked()">
+            <div class="form-group">
+              <label for="InputEmail">이메일 주소</label>
+              <input type="email" class="form-control" id="mail" placeholder="이메일 주소" name="mail">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword1">비밀번호</label>
+              <input type="password" class="form-control" id="pass" placeholder="비밀번호" name="pass">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword2">비밀번호 확인</label>
+              <input type="password" class="form-control" id="cpass" placeholder="비밀번호 확인" name="cpass">
+              <p class="help-block">비밀번호 확인을 위해 다시한번 입력 해 주세요</p>
+            </div>
+            <div class="form-group">
+              <label for="username">이름</label>
+              <input type="text" class="form-control" id="name" placeholder="이름을 입력해 주세요" name="name">
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary"  type="submit">&nbsp; 회원가입<i class="fa fa-check spaceLeft"></i></button>
+                <button class="btn btn-danger" type="submit">&nbsp; 가입취소<i class="fa fa-times spaceLeft"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        </form>
+          <hr>
+        </div>
+      </article>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+
+
+
+  <title>KOREAVEL</title>
+
+
+
+  <!-- css -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+
+  <link href="css/flexslider.css" rel="stylesheet" />
+
+  <link href="css/animate.css" rel="stylesheet" />
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/style2.css" rel="stylesheet">
+
+  <link href="color/default.css" rel="stylesheet">
+
+  <!-- =======================================================
+
+    Theme Name: Shuffle
+
+    Theme URL: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/
+
+    Author: BootstrapMade
+
+    Author URL: https://bootstrapmade.com
+
+  ======================================================= -->
+
+
+
+</head>
+
+
+
+<body class = "bbg">
+
+  <div id = 'wrap' class = "sbg" >
+
+
+
+
+
+
+
+
+
+
+
+      <script type ="text/javascript"></script>
+
+
+
+      <div class = "modal" style = "display=none;">
+
+
+
+        <div class = "intro_cont" id="intro_pop" style="display:none">
+
+          <div class = "intro1">
+
+
+
+            <div class="txt">
+
+              <div id="Layer10" style="visibility: hidden;"><img src="http://www.dh.go.kr/img/tour/_temp01_txt00.png"></div>
+
+              <div id="Layer1" style="visibility: visible;"><a href="http://www.dh.go.kr/tour/sub.htm?nav_code=tou1497764752"><img src="../img/tour/_temp01_txt01.png"></a></div>
+
+              <div id="Layer2" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt02.png"></a></div>
+
+              <div id="Layer3" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt03.png"></a></div>
+
+              <div id="Layer4" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt04.png"></a></div>
+
+              <div id="Layer5" style="visibility: hidden;"><a href="http://www.dh.go.kr/img/tour/_temp01_txt00.png"><img src="../img/tour/_temp01_txt05.png"></a></div>
+
+           </div>
+
+
+
+            <div class = "close">
+
+              <a href="javascript:closeIntro();">
+
+                <img src = "http://www.dh.go.kr/img/tour/modal_close.png">
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div id = "header">
+
+        <div id="topwrap">
+
+          <div class ="d_width">
+
+            <h1 id = "logo">
+
+              <a href>
+
+                <img src = "http://www.dh.go.kr/img/tour/logo.png" >
+
+              </a>
+
+            </h1>
+
+
+
+            <div style="padding:12px 0 0 0;">
+
+              <form id="MainSearch_form" name="MainSearch_form" action="../search/search_tour.htm" method="get" title="통합검색">
+
+                <fieldset>
+
+                  <legend>통합검색</legend>
+
+                  <div class="topsearch2">
+
+                    <label for="Keywords_top" class="hidden">통합검색어 입력</label>
+
+                    <input type="text" class="text" name="Keywords" id="Keywords_top" value="" onkeydown="SearchinputSendit();" title="통합검색어 입력영역">
+
+                    <input type="image" src="http://www.dh.go.kr/img/ico_topsearch.png"  class="image">
+
+                  </div>
+
+                </fieldset>
+
+              </form>
+
+            </div>
+
+
+
+            <div id = "topmn">
+
+              <ul>
+
+                <li>
+
+                  <a href="http://www.dhcc.go.kr" rel="noopener noreferrer" target="_blank" title="(새창)동해시의회 홈페이지로 이동">로그인</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">회원가입</a>
+
+                </li>
+
+
+
+                <li>
+
+                  <a href="http://www.dh.go.kr/pages" rel="noopener noreferrer" target="_blank" title="(새창)동해시청 홈페이지로 이동">모바일모드</a>
+
+
+
+                </li>
+
+              </ul>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+        <div class="fix_menu">
+
+          <div id="gnb">
+
+            <a name = "gnb"></a>
+
+            <div id= "gnbmn" style="overflow: hidden; opacity: 1; height: 50px;">
+
+              <h2>주메뉴</h2>
+
+              <ul id="top1menu" class = "depth1">
+
+
+
+                <li class><a href="#" id="top1m1" style="text-indent: 0px;">동해여행</a>
+
+                  <ul>
+
+                    <li><a href="./ExamplePage1.html">경복궁</a></li>
+
+                    <li><a href="./ExamplePage2.html">N서울타워</a></li>
+
+                    <li><a href="./ExamplePage3.html">한옥마을</a></li>
+
+                  </ul>
+
+                </li>
+
+
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">음식소개</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">서울축제</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">야경명소</a>
+
+                </li>
+
+                <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">전통행사</a>
+
+                </li>
+
+                 <li class >
+
+                  <a id="top1m1" style="text-indent: 0px;">여행후기</a>
+
+                </li>
+
+
+
+              </ul>
+
+            </div>
+
+            <div class = "clear"></div>
+
+            <div id ="id_gnb_bg" class = "gnb_bg" style="overflow: hidden; opacity: 1; height: 2.84217e-14px;"></div>
+
+          </div>
+
+        </div>
+
+        <script type = "text/javascript">initTopMenu(0,0);</script>
+
+      </div>
+
+
+
+      <div id = "scontainer" class = "d_width" >
+
+        <div style="position:relative;" widht="1200;" height:"50;">
+
+          <div id = "location" >
+
+            <h4>현재위치</h4>
+
+            <ul>
+
+               <li><a href="./index.htm">홈</a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">관광 명소</a></li>
+
+              <li><a href="./sub.htm?nav_code=tou1496969234">경복궁</a></li>
+
+            </ul>
+
+          </div>
+
+
+
+          <div id = "pnb">
+
+          </div>
+
+
+
+          <div class = "clear">
+
+          </div>
+
+        </div>
+
+
+
+        <div id = "snb">
+
+          <a name = "snb"></a>
+
+          <h2> 찌개류 </h2>
+
+
+
+          <div id ="snbmn">
+
+            <ul id ="snbmn">
+
+              <li id = "snb2m1" style="font-weight: normal;">
+
+                한국(韓國) 김치찌개
+
+              </li>
+
+              <li id = "snb2m2" style="font-weight: normal;">
+
+                한국(韓國) 된장찌개
+
+              </li>
+
+              <li id = "snb2m3" style="font-weight: normal;">
+
+                한국(韓國) 청국장
+
+              </li>
+
+              <li id = "snb2m4" style="font-weight: normal;">
+
+                한국(韓國) 부대찌개
+
+              </li>
+
+              <li id = "snb2m5" style="font-weight: normal;">
+
+                한국(韓國) 고추장찌개
+
+              </li>
+
+              <li id = "snb2m6" style="font-weight: normal;">
+
+                한국(韓國) 순두부찌개
+
+              </li>
+
+
+
+
+
+            </ul>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div id = "content">
+
+          <div id = "body_head">
+
+            <div id = "body_title">
+
+              <h1> 한국 음식 </h1>
+
+            </div>
+
+            <div class = "clear"></div>
+
+          </div>
+
+
+
+          <div id = "body_content">
+
+            <div class = "tal">
+
+              <img src = "./img/FoodPage1main.jpg" width="920px" height="350px"  alt = "상단 이미지.png">
+
+            </div>
+
+            <div class>
+
+               <div class = "tac">
+
+                 한국의
+
+                 <br>
+
+                 그리고 무릉계곡에서는 신토불이 재료로 만들어 청정자연의 맛을 한층 돋우어 주는 향토음식을 만나실 수 있습니다.
+
+                 <br>
+
+                 북평민속시장(5일장), 동쪽바다 중앙시장에서 시장의 정취와 함께 즐길 수 있는 동해의 먹거리와 동해에서만 만날 수 있는 음식을
+
+               </div>
+
+           </div>
+
+            <div class="line_type2"></div>
+
+            <dic class>
+
+               <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">01.</span>
+
+                한국인의 열정(熱情)적인 맛
+
+                  </p>
+
+               </div>
+
+            </dic>
+
+
+
+            <div class="line_type3" style="padding-bottom:20px;"></div>
+
+
+
+             <div class>
+
+                <div class = "column_type2">
+
+                   <div class = "txt" style = "margin-right:320px; min-height:300px;">
+
+                      <div class ="tal">
+
+                    김치찌개에는 어느 정도 발효가 되어 신 맛이 나는 김치를 사용하는데, 담근 지 얼마 안 된 김치를 사용하면 특유의 맛이 나지 않기 때문이다. 신 김치는 바로 사용하기도 하지만, 기름에 볶아서 사용하면 깊은 맛을 낼 수 있다. 볶는 기름은 참기름이나 들기름이 주로 사용된다. 돼지고기와 곁들일 경우 라드(혹은 돼지 비계)를 이용해서 볶아도 구수한 맛이 나온다.
+
+
+
+                         <br>
+
+                    김치찌개에는 어느 정도 발효가 되어 신 맛이 나는 김치를 사용하는데, 담근 지 얼마 안 된 김치를 사용하면 특유의 맛이 나지 않기 때문이다. 신 김치는 바로 사용하기도 하지만, 기름에 볶아서 사용하면 깊은 맛을 낼 수 있다. 볶는 기름은 참기름이나 들기름이 주로 사용된다. 돼지고기와 곁들일 경우 라드(혹은 돼지 비계)를 이용해서 볶아도 구수한 맛이 나온다.
+
+                         <br>
+
+                         <br>
+
+                    고기나 해산물을 곁들일 때 잡내를 없애기 위해 된장을 약간 풀어 넣을 수도 있다. 된장 대신 청주나 소주 등의 술을 넣어도 같은 효과가 나며, 조리 중간에 넣은 마늘과 양파로도 약간의 잡내를 잡을 수도 있다. 또는 매우 신 김치를 이용하면 이들 재료를 추가하지 않아도 잡내를 없앨 수 있다. 끓일때 신맛이 강하거나 할 경우 설탕과 소금을 넣어서 감칠맛을 더하기도 한다.
+
+                         <br>
+
+                         <br>
+
+                    재료가 간단하고 만들기 쉽기 때문에 한국의 가정에서 흔히 볼 수 있다. 김치찌개에는 배추김치와 채소, 두부, 육류, 어패류 등이 들어가는데, 보통 육류와 해산물은 동시에 들어가지 않는다. 육류는 주로 돼지고기를 넣고, 쇠고기는 쉽게 질겨서 일반적으론 잘 사용하지 않는다. 해산물은 주로 참치를 넣으며, 간혹 꽁치를 쓰기도 한다. 다른 한국 요리처럼 반찬과 밥과 함께 나오는 경우가 많다. 김치찌개를 끓이다가 고춧가루를 첨가하면 맛과 색감이 좋아진다고 한다.
+
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "thumb">
+
+                      <img src="./img/FoodPage1a.jpg" width="300" height="420px" alt="음식소개1.png">
+
+                   </div>
+
+                   <div class = "clear"> </div>
+
+
+
+                </div>
+
+             </div>
+
+
+
+             <div class="line_type3" style="padding-bottom:20px;"></div>
+
+
+
+             <div class="line_type3" style="padding-bottom:20px;"></div>
+
+            <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">02.</span>
+
+                조선 왕들이 먹었던 신선로(神仙爐)
+
+                  </p>
+
+               </div>
+
+            </div>
+
+            <div class="line_type3" style="padding-bottom:20px;"></div>
+
+            <div class>
+
+                <div class = "column_type1">
+
+                   <div class = "thumb">
+
+                      <img src="./img/FoodPage1g.jpg" width="420" height="280" alt="동해의맛06.png">
+
+                   </div>
+
+                   <div class = "txt">
+
+                      <div class = "tal">
+
+                         동해에서 신선한 해산물요리만 즐길 수 있는 것은 아닙니다!
+
+                         <br>
+
+                         무릉계곡명승지 내 28개의 향토음식점 상가가 밀집되어 있어 맛집을 찾으려고 이리저리 헤메지 않아도 된답니다.
+
+                         <br>
+
+                         <br>
+
+                         무릉계곡명승지 내 향토음식점의 주요 메뉴로는 고소한 감자전, 산나물의 향긋한 맛을 느낄 수 있는 산채비빔밥, 담백하지만 진한 황기백숙, 매콤달콤한 더덕구이 등 청정자연의 맛을 한층 돋구어 주는 메뉴들을 만나실 수 있습니다.
+
+                         <br>
+
+                         <br>
+
+                         아름다운 자연경관과 함께 시원한 계곡의 물소리를 들으며 깔끔하고 정갈한 맛의 동해향토음식을 한번 맛보시는 것은 어떨까요?
+
+                         <br>
+
+                         모두 담백하고 개운한 맛으로 남녀노소 누구에게나 건강한 맛으로 다가올 것입니다.
+
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "clear"></div>
+
+                </div>
+
+           </div>
+
+             <div class="line_type3" style="padding-bottom:40px;"></div>
+
+             <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">03.</span>
+
+                선농단( 先農壇 )에서 행사 후 만든 국밥
+
+                  </p>
+
+               </div>
+
+            </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+            <div class>
+
+               <div class = "column_type2">
+
+                  <div class = "txt" style ="margin-right:480px; min-height:300px;">
+
+                     <div class ="tal">
+
+                        진정한 먹방여행을 하기 위해서는 시장을 가야하는 법, 모두들 알고 계신 사실이죠? 동해에서는 전통시장부터 야시장까지 시장 먹방여행을 즐길 수 있답니다.
+
+                        <br>
+
+                        <br>
+
+                        먼저, 동해의 전통시장인 북평민속시장(5일장)에서는 우리 어머니들의 손맛이 느껴지는 메밀전병과 어릴적 아버지께서 사오신 옛날 통닭까지 옛날 향수를 불러 일으키는 맛을 느낄 수 있습니다. 그 뿐만 아니라 북평민속오일장의 유명한 국밥거리에서는 얼큰한 맛의 소머리국밥을 즐길 수 있습니다. 이렇듯 북평민속오일장에서는 옛날 생각이 나는 맛을 즐길 수 있습니다.
+
+                        <br>
+
+                        <br>
+
+                        동쪽바다 중앙시장으로 넘어가면 북평민속시장(5일장)과는 또다른 느낌의 음식으로 여러분에게 다가갑니다. 동쪽바다 중앙시장에는 구이타운이 있어서 고소한 생선구이요리와 청년몰로 인해 조금은 색다른 음식들을 맛볼 수 있습니다.
+
+                     </div>
+
+
+
+                  </div>
+
+
+
+                  <div class = "thumb">
+
+                     <img src="./img/FoodPage1i.jpg" width="460" height="300" alt="동해의맛07.png">
+
+                  </div>
+
+
+
+                  <div class = "clear"></div>
+
+
+
+               </div>
+
+            </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+            <div class>
+
+              <div class ="tal">
+
+                  <p class ="bg_tit">
+
+                     <span class="num">04.</span>
+
+                어머니의 따뜻한 손(手)맛
+
+                  </p>
+
+               </div>
+
+            </div>
+
+
+
+           <div class>
+
+                <div class = "column_type1">
+
+                   <div class = "thumb">
+
+                  <img src="./img/FoodPage1d.jpg" width="460" height="300" alt="동해의맛07.png">
+
+                   </div>
+
+                   <div class = "txt">
+
+                      <div class = "tal">
+
+                         동해에서 신선한 해산물요리만 즐길 수 있는 것은 아닙니다!
+
+                         <br>
+
+                         무릉계곡명승지 내 28개의 향토음식점 상가가 밀집되어 있어 맛집을 찾으려고 이리저리 헤메지 않아도 된답니다.
+
+                         <br>
+
+                         <br>
+
+                         무릉계곡명승지 내 향토음식점의 주요 메뉴로는 고소한 감자전, 산나물의 향긋한 맛을 느낄 수 있는 산채비빔밥, 담백하지만 진한 황기백숙, 매콤달콤한 더덕구이 등 청정자연의 맛을 한층 돋구어 주는 메뉴들을 만나실 수 있습니다.
+
+                         <br>
+
+                         <br>
+
+                         아름다운 자연경관과 함께 시원한 계곡의 물소리를 들으며 깔끔하고 정갈한 맛의 동해향토음식을 한번 맛보시는 것은 어떨까요?
+
+                         <br>
+
+                         모두 담백하고 개운한 맛으로 남녀노소 누구에게나 건강한 맛으로 다가올 것입니다.
+
+                      </div>
+
+                   </div>
+
+
+
+                   <div class = "clear"></div>
+
+                </div>
+
+           </div>
+
+
+
+            <div class="line_type3" style="padding-bottom:40px;"></div>
+
+
+
+           <div class>
+
+               <div class = "column_type2">
+
+                  <div class = "txt" style ="margin-right:480px; min-height:300px;">
+
+                     <div class ="tal">
+
+                        진정한 먹방여행을 하기 위해서는 시장을 가야하는 법, 모두들 알고 계신 사실이죠? 동해에서는 전통시장부터 야시장까지 시장 먹방여행을 즐길 수 있답니다.
+
+                        <br>
+
+                        <br>
+
+                        먼저, 동해의 전통시장인 북평민속시장(5일장)에서는 우리 어머니들의 손맛이 느껴지는 메밀전병과 어릴적 아버지께서 사오신 옛날 통닭까지 옛날 향수를 불러 일으키는 맛을 느낄 수 있습니다. 그 뿐만 아니라 북평민속오일장의 유명한 국밥거리에서는 얼큰한 맛의 소머리국밥을 즐길 수 있습니다. 이렇듯 북평민속오일장에서는 옛날 생각이 나는 맛을 즐길 수 있습니다.
+
+                        <br>
+
+                        <br>
+
+                        동쪽바다 중앙시장으로 넘어가면 북평민속시장(5일장)과는 또다른 느낌의 음식으로 여러분에게 다가갑니다. 동쪽바다 중앙시장에는 구이타운이 있어서 고소한 생선구이요리와 청년몰로 인해 조금은 색다른 음식들을 맛볼 수 있습니다.
+
+                     </div>
+
+
+
+                  </div>
+
+
+
+                  <div class = "thumb">
+
+                     <img src="./img/FoodPage1c.jpg" width="460px" height="320px" alt="동해의맛07.png">
+
+                  </div>
+
+
+
+                  <div class = "clear"></div>
+
+
+
+               </div>
+
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+
+
+          <h2>찾아오시는 길> </h2>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <div id= "footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 col-md-offset-3">
+
+
+
+          <div class="text-center">
+
+            <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+
+            <p>&copy; Shuffle Theme - All Rights Reserved</p>
+
+            <div class="credits">
+
+              <!--
+
+                All the links in the footer should remain intact.
+
+                You can delete the links only if you purchased the pro version.
+
+                Licensing information: https://bootstrapmade.com/license/
+
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Shuffle
+
+              -->
+
+              <a href="https://bootstrapmade.com/">Korea Travel Web</a> by <a href="https://bootstrapmade.com/">Korea aerospace university</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+  <!-- Core JavaScript Files -->
+
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/jquery.sticky.js"></script>
+
+  <script src="js/jquery.flexslider-min.js"></script>
+
+  <script src="js/jquery.easing.min.js"></script>
+
+  <script src="js/jquery.scrollTo.js"></script>
+
+  <script src="js/jquery.appear.js"></script>
+
+  <script src="js/stellar.js"></script>
+
+  <script src="js/wow.min.js"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script src="js/nivo-lightbox.min.js"></script>
+
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/menu_tour.js"></script>
+
+  <script src="./js/main.js"></script>
+
+  <script type="text/javascript" src="http://www.dh.go.kr/js/jquery-ui.js"></script>
+
+</body>
+
+
+
+</html>
